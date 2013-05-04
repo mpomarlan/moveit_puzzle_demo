@@ -1,0 +1,7 @@
+#This line is a comment
+left_arm_away
+right_arm_away
+puzzle_default
+torso_lift_joint 0.2
+head_tilt_joint 0.6
+

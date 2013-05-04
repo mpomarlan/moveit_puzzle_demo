@@ -1,0 +1,14 @@
+<launch>
+
+  <!-- Load URDF -->
+  <include file="$(find PR2_Card_Config)/launch/planning_context.launch">
+    <arg name="load_robot_description" value="true"/>
+  </include>
+
+  <!-- Start Benchmark Server -->
+  <node name="moveit_benchmark_server" pkg="moveit_ros_benchmarks" type="moveit_run_benchmark" respawn="false" output="screen">
+    <rosparam command="load" file="$(find PR2_Card_Config)/config/kinematics.yaml"/>
+    <rosparam command="load" file="$(find PR2_Card_Config)/config/ompl_planning.yaml"/>
+  </node>
+
+</launch>

@@ -1,0 +1,23 @@
+<package>
+  <name>custom_joint_state_publisher</name>
+  <version>1.10.9</version>
+  <description>
+    This package contains a tool for setting and publishing joint state values for a given URDF. It is a custom version of the ROS joint_state_publisher package, and also allows initialization with named poses from the SRDF.
+  </description>
+  <author email="davidlu@wustl.edu">David Lu!!!</author>
+  <author email="mpomarlan@yahoo.co.uk">Mihai Pomarlan</author>
+  <maintainer email="mpomarlan@yahoo.co.uk">Mihai Pomarlan</maintainer>
+  <license>BSD</license>
+  <url type="website">http://www.ros.org/wiki/joint_state_publisher</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>wxpython</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>wxpython</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+</package>

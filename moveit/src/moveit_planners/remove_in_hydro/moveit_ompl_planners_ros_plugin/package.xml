@@ -1,0 +1,21 @@
+<package>
+  <name>moveit_ompl_planners_ros_plugin</name>
+  <version>0.3.7</version>
+  <description>Dummy metapackage</description>
+  <author email="isucan@willowgarage.com">Ioan Sucan</author>
+
+  <maintainer email="isucan@willowgarage.com">Ioan Sucan</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://moveit.ros.org</url>
+  <url type="bugtracker">https://github.com/ros-planning/moveit_planners/issues</url>
+  <url type="repository">https://github.com/ros-planning/moveit_planners</url>
+
+  <run_depend>moveit_ompl_planners</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+
+</package>

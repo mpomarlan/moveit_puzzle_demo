@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ""
+    relative_path: $(find PR2_Card_Config)/config/pr2_cardPuzzle.urdf
+  SRDF:
+    relative_path: $(find PR2_Card_Config)/config/pr2.srdf
+  CONFIG:
+    generated_timestamp: 1367092291
